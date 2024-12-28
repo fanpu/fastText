@@ -3,7 +3,11 @@
 This fixes the following issue for the official unmaintained [fastText](https://github.com/facebookresearch/fastText) library:
 
 ```
-Unable to avoid copy while creating an array as requested.\nIf using `np.array(obj, copy=False)` replace it with `np.asarray(obj)` to allow a copy when needed (no behavior change in NumPy 1.x).\nFor more details, see https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword.
+Unable to avoid copy while creating an array as requested.
+If using `np.array(obj, copy=False)` replace it with `np.asarray(obj)` to allow
+a copy when needed (no behavior change in NumPy 1.x).
+For more details, see
+https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword.
 ```
 
 Install with
